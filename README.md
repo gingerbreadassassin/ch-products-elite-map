@@ -27,6 +27,7 @@ indicate complete overhauls of the map.
 
 * [CH Products][] [Fighterstick][]
 * [CH Products][] [Pro Throttle][]
+* [CH Product][] [Pro Pedals][]
 * [CH Products][] [Control Manager][] software
 * [Elite: Dangerous][] 3.3 or above
 * Optional: PDF viewer
@@ -117,6 +118,7 @@ both halves. If in doubt always back up.
 [CH Products]: http://www.chproducts.com/
 [Fighterstick]: http://www.chproducts.com/Fighterstick-v13-d-722.html
 [Pro Throttle]: http://www.chproducts.com/Pro-Throttle-v13-d-719.html
+[Pro Pedals]: http://www.chproducts.com/Pro-Pedals-v13-d-716.html
 [Elite: Dangerous]: http://www.elitedangerous.com/
 [zip file]: https://github.com/domdavis/ch-products-elite-map/archive/master.zip
 [Control Manager]: http://www.ch-hangar.com/forum/index.php/files/file/49-control-manager/
