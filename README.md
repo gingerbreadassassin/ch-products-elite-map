@@ -122,7 +122,6 @@ both halves. If in doubt always back up.
 [Elite: Dangerous]: http://www.elitedangerous.com/
 [zip file]: https://github.com/domdavis/ch-products-elite-map/archive/master.zip
 [Control Manager]: http://www.ch-hangar.com/forum/index.php/files/file/49-control-manager/
-[Pro Pedals]: http://www.chproducts.com/Pro-Pedals-v13-d-716.html
 [Cmdr Davis]: https://twitter.com/cmdr_davis 
 [YouTube]: https://www.youtube.com/user/idomdavis
 [Voice Attack]: https://voiceattack.com
