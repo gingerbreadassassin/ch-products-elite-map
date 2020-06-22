@@ -27,7 +27,7 @@ indicate complete overhauls of the map.
 
 * [CH Products][] [Fighterstick][]
 * [CH Products][] [Pro Throttle][]
-* [CH Product][] [Pro Pedals][]
+* [CH Products][] [Pro Pedals][]
 * [CH Products][] [Control Manager][] software
 * [Elite: Dangerous][] 3.3 or above
 * Optional: PDF viewer
