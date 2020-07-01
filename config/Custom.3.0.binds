@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="Custom" MajorVersion="3" MinorVersion="0">
 	<KeyboardLayout>en-US</KeyboardLayout>
-	<MouseXMode Value="Bindings_MouseRoll" />
+	<MouseXMode Value="" />
 	<MouseXDecay Value="0" />
-	<MouseYMode Value="Bindings_MousePitch" />
+	<MouseYMode Value="" />
 	<MouseYDecay Value="0" />
 	<MouseReset>
 		<Primary Device="{NoDevice}" Key="" />
@@ -62,16 +62,16 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PitchDownButton>
 	<LateralThrustRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="068EC010" Key="Joy_RYAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</LateralThrustRaw>
 	<LeftThrustButton>
-		<Primary Device="068EC011" Key="Pos_Joy_XAxis" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</LeftThrustButton>
 	<RightThrustButton>
-		<Primary Device="068EC011" Key="Pos_Joy_YAxis" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</RightThrustButton>
 	<VerticalThrustRaw>
@@ -88,16 +88,16 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</DownThrustButton>
 	<AheadThrust>
-		<Binding Device="068EC010" Key="Joy_RYAxis" />
+		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</AheadThrust>
 	<ForwardThrustButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="068EC011" Key="Pos_Joy_YAxis" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ForwardThrustButton>
 	<BackwardThrustButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="068EC011" Key="Pos_Joy_XAxis" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton>
 	<UseAlternateFlightValuesToggle>
@@ -499,11 +499,11 @@
 	</UIFocus>
 	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<FocusLeftPanel>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Delete" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusLeftPanel>
 	<FocusCommsPanel>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Home" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusCommsPanel>
 	<FocusOnTextEntryField Value="0" />
@@ -512,17 +512,17 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</QuickCommsPanel>
 	<FocusRadarPanel>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_End" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRadarPanel>
 	<FocusRightPanel>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_PageDown" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRightPanel>
-	<LeftPanelFocusOptions Value="" />
-	<CommsPanelFocusOptions Value="" />
-	<RolePanelFocusOptions Value="" />
-	<RightPanelFocusOptions Value="" />
+	<LeftPanelFocusOptions Value="FocusOption_Nothing" />
+	<CommsPanelFocusOptions Value="FocusOption_Show" />
+	<RolePanelFocusOptions Value="FocusOption_Nothing" />
+	<RightPanelFocusOptions Value="FocusOption_Nothing" />
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
 		<Primary Device="{NoDevice}" Key="" />
@@ -782,7 +782,7 @@
 	</SteerRightButton>
 	<BuggyRollAxisRaw>
 		<Binding Device="068EC010" Key="Joy_XAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyRollAxisRaw>
 	<BuggyRollLeftButton>
@@ -812,7 +812,7 @@
 		<ToggleOn Value="0" />
 	</VerticalThrustersButton>
 	<BuggyPrimaryFireButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_1" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyPrimaryFireButton>
 	<BuggySecondaryFireButton>
@@ -841,7 +841,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyCycleFireGroupPrevious>
 	<SelectTarget_Buggy>
-		<Primary Device="Mouse" Key="Mouse_2" />
+		<Primary Device="Keyboard" Key="Key_T" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTarget_Buggy>
 	<MouseTurretXMode Value="Bindings_MouseYaw" />
@@ -924,7 +924,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ResetPowerDistribution_Buggy>
 	<ToggleCargoScoop_Buggy>
-		<Primary Device="Keyboard" Key="Key_Home" />
+		<Primary Device="Keyboard" Key="Key_BackSlash">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop_Buggy>
@@ -943,11 +945,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</UIFocus_Buggy>
 	<FocusLeftPanel_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Delete" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusLeftPanel_Buggy>
 	<FocusCommsPanel_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Home" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusCommsPanel_Buggy>
 	<QuickCommsPanel_Buggy>
@@ -955,11 +957,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</QuickCommsPanel_Buggy>
 	<FocusRadarPanel_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_End" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRadarPanel_Buggy>
 	<FocusRightPanel_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_PageDown" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRightPanel_Buggy>
 	<GalaxyMapOpen_Buggy>
@@ -1405,7 +1407,7 @@
 	</ExplorationFSSMiniZoomOut>
 	<ExplorationFSSRadioTuningX_Raw>
 		<Binding Device="068EC010" Key="Joy_UAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSRadioTuningX_Raw>
 	<ExplorationFSSRadioTuningX_Increase>
@@ -1463,7 +1465,7 @@
 	<SAAThirdPersonMouseSensitivity Value="30.00000000" />
 	<SAAThirdPersonYawAxisRaw>
 		<Binding Device="068EC010" Key="Joy_XAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SAAThirdPersonYawAxisRaw>
 	<SAAThirdPersonYawLeftButton>
@@ -1476,7 +1478,7 @@
 	</SAAThirdPersonYawRightButton>
 	<SAAThirdPersonPitchAxisRaw>
 		<Binding Device="068EC010" Key="Joy_YAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SAAThirdPersonPitchAxisRaw>
 	<SAAThirdPersonPitchUpButton>
